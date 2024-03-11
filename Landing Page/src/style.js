@@ -6,6 +6,7 @@ const styles = {
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
+    flexend: "flex justify-center items-end",
   
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
@@ -23,6 +24,7 @@ const styles = {
     sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
   
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+    sectionInforeverse: `flex-1 ${styles.flexStart} flex-col`,
   };
   
   export default styles;

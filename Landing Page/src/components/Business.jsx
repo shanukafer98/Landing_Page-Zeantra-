@@ -23,16 +23,13 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      Focus On Your <span className="text-gradient">Business</span><br className="sm:block hidden" />  Leave Finances To Us
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+      Utilize our financial data analysis platform to enhance your financial standing through credit building, rewards accumulation, and cost savings, leveraging comprehensive graphs derived from extensive company databases
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     {/* <div className={`${layout.sectionImg} flex-col`}>
@@ -40,8 +37,9 @@ const Business = () =>  (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div> */}
-
-    <img src = {image} alt = "image" className="W-[500px] h-[600px]  shadow-normal"/>
+    <div className={layout.sectionImg}>
+    <img src = {image} alt = "image" className="W-[500px] h-[500px]  shadow-normal"/>
+    </div>
   </section>
 );
 

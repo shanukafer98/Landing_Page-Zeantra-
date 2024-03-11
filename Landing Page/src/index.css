@@ -5,11 +5,13 @@
 @tailwind utilities;
 
 :root {
-  --black-gradient: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+  --blue-gradient: linear-gradient(
+    157.81deg,
+    #001b35 0.89%, /* Dark blue */
+    #011934 17.23%, /* Even darker blue */
+    #002555 42.04%, /* Very dark blue */
+    #00274b 55.12%, /* Extremely dark blue */
+    #000225 71.54% /* Black */
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -37,12 +39,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #e0f5ff 0.89%,
+    #b3d8ff 17.23%,
+    #80baff 42.04%,
+    #4d9dff 55.12%,
+    #1a80ff 71.54%,
+    #005cbf 100%
   );
 }
 
@@ -55,12 +57,14 @@
   );
 }
 
-.bg-black-gradient-2 {
+.bg-blue-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #001b35 0.89%, /* Dark blue */
+    #011934 17.23%, /* Even darker blue */
+    #002555 42.04%, /* Very dark blue */
+    #00274b 55.12%, /* Extremely dark blue */
+    #000225 71.54% /* Black */
   );
 }
 
@@ -108,7 +112,7 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--blue-gradient);
   box-shadow: var(--card-shadow);
 }
 
@@ -121,7 +125,7 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: var(--blue-gradient);
 }
 
 .blue__gradient {
@@ -146,6 +150,6 @@
 .text-shadow {
   text-shadow: 2px 2px 20px #007bff;
 }
-.shadow-normal {
-  filter: drop-shadow(0 0 20px #007bff);
+.shadow-normal{
+  filter: drop-shadow(0 0 20px rgba(5, 9, 136, 0.7)) drop-shadow(0 0 10px rgba(3, 3, 98, 0.5)) drop-shadow(0 0 5px rgba(8, 1, 59, 0.3));
 }

@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Zeantra AI's data analysis tools have revolutionized how we interpret our company's database. The generated charts and analyses provide invaluable insights into our sales trends and profitability.",
+    name: "Alice Johnson",
+    title: "Senior Analyst",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "The machine learning algorithms provided by Zeantra AI have greatly enhanced our ability to predict future sales and profit based on our company's database. Their accuracy and reliability have exceeded our expectations.",
+    name: "David Smith",
+    title: "Data Scientist",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Thanks to Zeantra AI's services, we've been able to leverage our company's database effectively for strategic decision-making. The insights generated have helped us stay ahead in the competitive market landscape.",
+    name: "Emily Brown",
+    title: "Quantitative Analyst",
     img: people03,
   },
 ];
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Industry Experience",
+    value: "10 Years",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "230",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Total Revenue",
+    value: "$20M",
   },
 ];
 

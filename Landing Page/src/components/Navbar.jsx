@@ -1,22 +1,24 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+    <nav className="w-full flex py-6 justify-start items-center navbar  h-[150px]">
+      <img src={logo} alt="Zeantra AI" className="w-[70px] h-[70px] m-4" />
+      <div className="text-gradient font-bold my-2 text-[30px]  ">Zeantra AI</div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
+            className={`font-poppins  cursor-pointer text-[20px] font-bold ${
+              active === nav.title ? "text-gradient" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}  hover:text-blue-500`}
             onClick={() => setActive(nav.title)}
           >
