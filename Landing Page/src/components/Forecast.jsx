@@ -1,8 +1,8 @@
-import { apple, bill, google } from "../assets";
+
 import styles, { layout } from "../style";
 import image from "../assets/forecast.png";
 
-const Billing = () => (
+const Forecast = () => (
   <section id="product" className={`${layout.sectionReverse} `}>
     <div className={`${layout.sectionImgReverse} pr-20`}>
       <img src={image} alt="billing" className="w-[500px] h-[500px] shadow-normal " />
@@ -30,4 +30,4 @@ const Billing = () => (
   </section>
 );
 
-export default Billing;
+export default Forecast;
