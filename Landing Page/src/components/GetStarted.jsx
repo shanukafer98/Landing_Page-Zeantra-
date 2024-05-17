@@ -3,7 +3,7 @@ import { arrowUp } from "../assets";
 
 const GetStarted = () => {
   const handleClick = () => {
-    window.location.href = "https://zeantradesktop-bcu5wnpd5-shanukafer98s-projects.vercel.app/";
+    window.location.href = "http://16.171.31.24:3000/";
   }
 
   return (
@@ -16,7 +16,7 @@ const GetStarted = () => {
       >
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-            <span className="text-gradient">Get</span>
+            <span className="text-gradient">Launch</span>
           </p>
           <img
             src={arrowUp}
@@ -26,7 +26,7 @@ const GetStarted = () => {
         </div>
 
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-          <span className="text-gradient">Started</span>
+          <span className="text-gradient">Demo</span>
         </p>
       </div>
     </div>
