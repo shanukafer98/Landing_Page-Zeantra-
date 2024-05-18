@@ -1,8 +1,11 @@
 import styles from "./style";
 import { Forecast,Business, CardDeal, CTA, Footer, Navbar, Stats, Testimonials, Hero} from "./components/index";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden ">
+    <Analytics />
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
