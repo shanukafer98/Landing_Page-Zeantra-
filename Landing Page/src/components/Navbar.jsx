@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-start items-center navbar  h-[150px]">
       <img src={logo} alt="Zeantra AI" className="w-[70px] h-[70px] m-4" />
-      <div className="text-gradient font-bold my-2 text-[30px]  ">Zeantra AI</div>
+      <div className="text-gradient font-bold my-2 text-[30px]  ">Zeantra</div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
